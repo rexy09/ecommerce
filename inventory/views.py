@@ -93,7 +93,7 @@ def product(request):
         try:
 
             paginator = CustomPagination()
-            paginator.page_size = 2
+            paginator.page_size = 10
             queryset = Product.objects.filter(
             ).select_related('category').all()
             filter = ProductFilter(request.GET, queryset)

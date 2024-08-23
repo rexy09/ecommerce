@@ -10,4 +10,5 @@ class ProductFilter(django_filters.FilterSet):
         model = Product
         fields = {
             'created_at': ['date__gte', 'date__lte'],
+            'price': ['gte', 'lte'],
         }

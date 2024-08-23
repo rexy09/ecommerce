@@ -84,7 +84,8 @@ python3 manage.py runserver
 
 15. Open your web browser and navigate to http://localhost:8000 to access the application APIs.
 
-## Subscription Configurations
+## API Documentation
+Please find the API documentation file `Ecommerce.postman_collection.json` in the project root folder. Import the json file to postman to run the API requests. 
 
 
 ## License

@@ -15,7 +15,7 @@ sudo apt update
 ```
 
 ```
-sudo apt install python3-venv python3-dev python3-pip libpq-dev postgresql postgresql-contrib nginx curl
+sudo apt install python3-venv python3-dev python3-pip libpq-dev 
 ```
 
 This command will install a tool to create virtual environments for your Python projects, the Python development files needed to build Gunicorn later, the Postgres database system and the libraries needed to interact with it, and the Nginx web server.
